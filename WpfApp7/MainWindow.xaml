@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+
+        <DockPanel>
+            <Canvas DockPanel.Dock="Right">
+                <TextBlock Canvas.Right="0">FooBar</TextBlock>
+            </Canvas>
+            <Grid></Grid>
+        </DockPanel>
+
+        <Label Content="Lследние документы" Canvas.Left="0" />
+        <Label Content="1.txt" Canvas.Right="0" Canvas.Left="10" Canvas.Top="42"/>
+        <Label Content="2.txt" Canvas.Right="0" Canvas.Left="10" Canvas.Top="73" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="3.txt" Canvas.Right="0" Canvas.Left="10" Canvas.Top="99"/>
+        <Label Content="4.txt" Canvas.Right="0" Canvas.Left="10" Canvas.Top="125" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="5.txt" Canvas.Right="0" Canvas.Left="10" Canvas.Top="156"/>
+        <Label Content="6.txt" Canvas.Right="0" Canvas.Left="10" Canvas.Top="183"/>
+
+        <Button Content="Открыть" Height="NaN" Margin="153,8,579,407" Width="NaN"/>
+        <Button Content="Сохрвнить" Height="NaN" Margin="242,8,490,407" Width="NaN"/>
+        <Button Content="Закрыть" Height="NaN" Margin="332,8,400,407" Width="NaN"/>
+        <Button Content="Обработать" Height="NaN" Margin="419,8,313,407" Width="NaN"/>
+        <Button Content="О программе" Height="NaN" Margin="505,8,227,407" Width="NaN"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         A" Canvas.Right="0" Margin="70,70,595,286" Height="NaN" Width="NaN" Background="#FFFFDE00" FontStretch="UltraExpanded"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         B" Canvas.Right="0" Margin="242,60,476,286" Height="NaN" Width="NaN" Background="Red" FontStretch="UltraExpanded"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         C" Canvas.Right="0" Margin="347,60,371,286" Height="NaN" Width="NaN" Background="#FF338C3D" FontStretch="UltraExpanded"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         D" Canvas.Right="0" Margin="453,60,265,286" Height="NaN" Width="NaN" Background="#FF0004FF" FontStretch="UltraExpanded"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         E" Canvas.Right="0" Margin="561,60,157,286" Height="NaN" Width="NaN" Background="#FF828282" FontStretch="UltraExpanded"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         F" Canvas.Right="0" Margin="667,60,51,286" Height="NaN" Background="#FFEDE8C5" FontStretch="UltraExpanded"/>
+
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         A" Canvas.Left="156" Height="NaN" Width="NaN" Background="#FFFFDE00" FontStretch="UltraExpanded" Canvas.Top="140" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         B" Canvas.Right="0" Height="NaN" Width="NaN" Background="Red" FontStretch="UltraExpanded" Canvas.Left="278" Canvas.Top="140"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         C" Canvas.Right="0" Height="NaN" Width="NaN" Background="#FF338C3D" FontStretch="UltraExpanded" Canvas.Left="382" Canvas.Top="140"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         D" Canvas.Right="0" Height="NaN" Width="NaN" Background="#FF0004FF" FontStretch="UltraExpanded" Canvas.Left="487" Canvas.Top="140"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         E" Canvas.Right="0" Height="NaN" Width="NaN" Background="#FF828282" FontStretch="UltraExpanded" Canvas.Left="597" Canvas.Top="140"/>
+        <Label Content="        &#xD;&#xA;&#xD;&#xA;         F" Canvas.Right="0" Height="NaN" Background="#FFEDE8C5" FontStretch="UltraExpanded" Canvas.Left="704" Canvas.Top="140"/>
+
+
+
+
+    </Canvas>
+</Window>
